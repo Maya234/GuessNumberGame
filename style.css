@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  background: #642b73;
+  background: -moz-linear-gradient(left, #642b73 1%, #c6426e 100%);
+  background: -webkit-linear-gradient(left, #642b73 1%, #c6426e 100%);
+  background: linear-gradient(to right, #642b73 1%, #c6426e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#642b73', endColorstr='#c6426e',GradientType=1 );
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  padding: 5rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.btn-reset,
+.btn-delete {
+  display: inline-block;
+  background-color: #fff;
+  color: #c6426e;
+  padding: 1rem 3rem;
+  font-weight: 800;
+  border-radius: 10rem;
+}
+.btn-delete {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+.btn-delete:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.number {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 6rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #fff;
+}
+.content {
+  text-align: center;
+}
+input {
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  width: 10rem;
+  border: 0;
+  color: #fff;
+  font-size: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+input.guess {
+  margin-top: 3rem;
+}
+.btn-check {
+  display: inline-block;
+  background-color: #fff;
+  color: #c6426e;
+  font-weight: 800;
+  border-radius: 10rem;
+  font-size: 3rem;
+  padding: 1rem 4rem;
+  border: 0;
+  border-radius: 10rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 104rem;
+  width: 100%;
+}
+.wrapper {
+  width: 35%;
+  padding-right: 2rem;
+}
+.h-container h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.h-container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 3rem;
+}
+.h-container div span {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 0.2rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-wrapper {
+  text-align: center;
+}
